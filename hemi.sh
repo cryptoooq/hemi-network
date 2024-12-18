@@ -61,8 +61,6 @@ sudo systemctl daemon-reload
 sudo systemctl enable hemi.service
 sudo systemctl start hemi.service
 
-sudo systemctl status hemi.service
-
 echo "Ethereum Address: $ETH_ADDRESS"
 echo "Private Key: $PRIVATE_KEY"
 echo "Public Key: $PUBLIC_KEY"
