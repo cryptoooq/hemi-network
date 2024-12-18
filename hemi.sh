@@ -21,7 +21,7 @@ cd heminetwork_v0.8.0_linux_amd64/
 
 ./popmd --help
 
-./keygen -secp256k1 -json -net="mainnet" > ~/popm-address.json
+./keygen -secp256k1 -json -net="testnet" > ~/popm-address.json
 
 
 ADDRESS_JSON=$(cat ~/popm-address.json)
